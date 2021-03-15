@@ -15,4 +15,6 @@ export const ToogleSelector = styled(Switch).attrs<ReactSwitchProps>(
     ({ theme}) =>({
         onColor: theme.colors.info,
         offColor: theme.colors.warning
-    }))<ReactSwitchProps>``;
+    }))<ReactSwitchProps>`
+    margin: 0 7px;    
+`;
